@@ -1,0 +1,268 @@
+#Constants {
+    includeNativeBool: false;
+    rendererShowsNumbersBool: false;
+}
+
+Container {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+Label {
+    background-color: transparent;
+    color: black;
+    font-family: "native:MainThin";
+    font-size: 3mm;
+}
+
+UnmarginedLabel {
+    background-color: transparent;
+    color: black;
+    font-family: "native:MainThin";
+    font-size: 3mm;
+    margin: 0px;
+}
+
+List {
+    background-color: transparent;
+    margin: 0px;
+}
+
+Toolbar {
+    border: none;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+Form {
+    background-color: #ebeaec;
+}
+
+Title {
+    border: none;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+}
+
+TitleCommand {
+    color: white;
+}
+
+MenuButton {
+    color: white;
+}
+
+OrderBarBackgroundOpaque {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ebeaec;
+}
+
+TopBar {
+    margin: 0px;
+    padding: 0px;
+    /* Defined in designer since CSS doesn't support non-multi images */
+/*    background-image: url(images/title-image.jpg);
+    cn1-background-type: cn1-image-scaled-fill;*/
+}
+
+YourOrder {
+    border: cn1-pill-border;
+    background-color: white;
+    color: #31aaff;
+    padding-left: 3mm;
+    padding-right: 4mm;
+    padding-top: 2mm;
+    padding-bottom: 3mm;
+    margin: 0px 1mm 1mm 1mm;
+     box-shadow: 0 0 0 1mm rgba(0,0,0,0.2);
+}
+
+ShoppingCart {
+    border: cn1-round-border;
+     box-shadow: 0 0 0 1mm rgba(0,0,0,0.3);
+    background-color: #31aaff;
+    color: white;
+    padding: 2mm 2mm 3mm 1mm;
+    margin: 0px 3mm 0mm 1mm;
+}
+
+ListRenderer {
+    background-color: transparent;
+    color: #aaaaaa;
+    font-family: "native:MainThin";
+    font-size: 3mm;
+    text-align: center;
+    border: none;
+}
+
+ListRenderer.selected {
+    color: white;
+    background-color: transparent;
+}
+
+ListRendererFocus {
+    background-color: transparent;
+}
+
+DishListTitle {
+    background-color: transparent;
+    color: black;
+    font-family: "native:MainLight";
+    font-size: 3mm;    
+}
+
+DishCheckoutTitle {
+    background-color: transparent;
+    color: black;
+    font-family: "native:MainThin";
+    font-size: 3mm;    
+}
+
+DishListBody {
+    background-color: transparent;
+    color: #989898;
+    font-family: "native:MainThin";
+    font-size: 3mm;    
+}
+
+CheckoutPrice {
+    background-color: transparent;
+    color: #31aaff;
+    font-family: "native:MainThin";
+    font-size: 2.5mm;    
+}
+
+PriceTotal {
+    background-color: transparent;
+    color: #31aaff;
+    font-family: "native:MainThin";
+    font-size: 3.5mm;     
+    padding: 2mm 1mm 1mm 1mm;
+    text-align: right;
+}
+
+AddToOrderButton {
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: 2mm;
+    padding-right: 2mm;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+CheckoutButton {
+    cn1-derive: AddToOrderButton;
+    font-family: "native:MainRegular";
+    font-size: 4mm;
+    padding: 2mm;
+    margin: 2mm 2mm 2mm 2mm;
+    text-align: center;
+    color: white;
+}
+
+MoreInfoButton {
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: 2mm;
+    padding-right: 2mm;
+    margin: 0px;
+    text-align: center;
+    color: #31aaff;
+}
+
+PaymentDialogTop {
+    margin: 2mm 2mm 0px 2mm;
+    padding: 3mm 3mm 1.5mm 3mm;
+}
+
+PaymentDialogBottom {
+    margin: 0mm 2mm 0px 2mm;
+    padding: 3mm;
+}
+
+WhiteSeparatorLine {
+    background-color: white;
+    padding: 1px 3mm 1px 3mm;
+    margin: 0px;
+}
+
+DishViewDescription {
+    font-family: "native:ItalicLight";
+    font-size: 2.5mm;
+    padding: 2mm;
+    margin: 0px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
+
+TintToolbar {
+    cn1-derive: Container;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+MapAddress {
+    padding: 1mm;
+    margin: 0px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
+
+MapAddressText {
+    font-family: "native:ItalicLight";
+    font-size: 2.5mm;
+    padding: 1mm 2mm 1mm 1mm;
+    margin: 0px;
+    text-align: left;
+    color: white;
+    background-color: transparent;
+}
+
+SideNavigationPanel {
+    background-color: white;
+}
+
+SideCommand {
+    border: none;
+    background-color: #31aaff;
+    text-decoration: none;
+    color: white;
+    padding: 3mm;
+    margin: 0px 0px 1px 0px;
+    font-family: "native:MainLight";
+    font-size: 4mm;
+}
+
+StatusBarSideMenu {
+    background-color: transparent;
+    padding: 0px;
+}
+
+QuantityPicker {
+    border: cn1-round-border;
+    background-color: #31aaff;
+    color: white;
+    padding: 2mm 2mm 2mm 2mm;
+    margin: 0px;
+}
+
+DarkToolbar {
+    background-color: darkblue;
+}
+
+AddToOrderButton.pressed {
+    color: #999999;
+}
+
+MoreInfoButton.pressed {
+    color: #999999;
+}
+
+ShoppingCart.pressed {
+    color: #999999;
+}
+
